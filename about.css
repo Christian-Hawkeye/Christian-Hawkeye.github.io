@@ -1,0 +1,58 @@
+#about-container{
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    padding: 40px;
+}
+
+#about-text{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: left;
+    align-items: right;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+}
+
+#about-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding-top: 1rem;
+}
+
+#red-bubble-large {
+    position: absolute;
+    top: -4%;
+    left: 7%;
+    z-index: -1;
+}
+
+#about-me-image{
+    width: 70%;
+    height: auto;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    z-index: 1;
+}
+
+#red-bubble-small {
+    position: absolute;
+    top: -2%;
+    right: 12%;
+    z-index: 2;
+}
+
+#red-star {
+    position: absolute;
+    top: 220%;
+    right: -7%;
+    z-index: 3;
+    width: 50%;
+}
