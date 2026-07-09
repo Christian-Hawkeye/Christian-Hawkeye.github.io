@@ -1,0 +1,22 @@
+#contact-text{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    padding: 20rem;
+    line-height: 1.5;
+}
+
+#contact-container{
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    position: relative;
+}
+
+.red-star {
+    position: absolute;
+    height: auto;
+}
